@@ -1,6 +1,7 @@
 public class EnumCalc {
     public static void main(String[] args) {
         System.out.println(calc.EXPONENTATION.action(2, 3));
+        System.out.println(calc.SUM.action(10, 6));
     }
     enum calc {
         SUM{
